@@ -1,8 +1,6 @@
-'use client';
 
-import { useState } from 'react';
 
-export default function Page() {
+export default function () {
   const [selectedStudent, setSelectedStudent] = useState<'A' | 'B'>('A');
 
   return (
